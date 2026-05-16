@@ -422,3 +422,14 @@ li {
     width: 100%;
   }
 }
+
+
+/* Show the full Valmet/industry CFD image without cropping */
+.project-card img.image-contain,
+.project-card img.valmet-image {
+  height: auto;
+  max-height: 520px;
+  object-fit: contain;
+  background: var(--surface-soft);
+  padding: 12px;
+}
